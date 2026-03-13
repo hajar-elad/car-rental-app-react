@@ -1,0 +1,29 @@
+.menu-bar {
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-top: none;
+    color: rgb(255, 198, 198);
+}
+
+.menu-links {
+    border: 1px solid rgb(182, 65, 65);
+    background-color: rgb(216, 91, 91);
+    border-radius: 15px;
+    /*box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.5);*/
+    border-color: ;
+    width: 135px;
+    padding: 7px;
+    text-align: center;
+    font-style: italic;
+    text-decoration: none;
+    transition: background-color 0.25s;
+    }
+
+    .menu-links:hover{
+        background-color: rgb(194, 41, 41);
+    }
+

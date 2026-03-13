@@ -1,0 +1,56 @@
+.checkout{
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+
+.checkout-form{
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+color: rgb(245, 215, 177);
+}
+
+input {
+ width: 500px;
+ height: 25px;
+ border-radius: 8px;
+ border: none;
+ transition: transform 0.2s ease-in-out;
+}
+
+input:hover{
+   transform: scale(1.03); 
+}
+
+label {
+    font-style: italic;
+}
+
+label:hover{
+    color: rgb(255, 199, 127);
+}
+
+.send-button{
+    margin-top: 12px;
+    padding: 0.6em 1.2em;
+    width: 120px;
+    border: 1px solid rgb(255, 168, 168);
+    background-color: rgb(214, 79, 79);
+    cursor: pointer;
+  transition: border-color 0.25s;
+  border-radius: 8px;
+}
+button:hover {
+  border-color:  rgb(85, 16, 16);;
+}
+
+.car-infos-container-checkout{
+padding: 3px;
+    padding-top: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    border-radius: 8px;
+}
