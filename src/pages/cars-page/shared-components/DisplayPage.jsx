@@ -13,6 +13,7 @@ export function DisplayPage({ category }) {
                         if (car.category === category) {
                             return (
                                 <div key={car.id} className='car-infos-container'>
+                                    {console.log(process.env.PUBLIC_URL + car.image)}
                                     <img className="car-image" src={process.env.PUBLIC_URL + car.image} />
                                     <div className="car-infos">
                                         <div className="car-name">{car.name} - {car.fuel} - {car.year}</div>
