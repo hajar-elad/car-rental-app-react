@@ -12,7 +12,7 @@ export const cars = [
         id :2,
         category : 'LuxuryCars',
         name : 'AUDI A8 WHITE',
-        image : '/images/luxury-cars/audi-a8-white-2026.jpg',
+        image : '/images/luxury-cars/audi-a8-white-2026.JPG',
         year : 2026,
         fuel: 'Diesel',
         price : 1500.00
