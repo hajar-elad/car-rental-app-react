@@ -5,8 +5,8 @@ export function MenuBar() {
     return (
         <>
             <div className='menu-bar'>
-                <Link to='/LuxuryCarsPage' className='menu-links'>Luxury Cars</Link>
-                <Link to='/RegularCarsPage' className='menu-links'>Regular Cars</Link>
+                <Link to='/luxurycarspage' className='menu-links'>Luxury Cars</Link>
+                <Link to='/regularcarspage' className='menu-links'>Regular Cars</Link>
                 <Link to='/' className='menu-links'>Find US</Link>
             </div>
         </>
