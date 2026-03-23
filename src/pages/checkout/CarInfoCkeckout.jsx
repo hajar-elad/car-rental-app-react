@@ -12,7 +12,7 @@ export function CarInfoCheckout(){
                         if(car.id == carId) {
                             return(
                                  <div key={car.id} className="car-infos-container-checkout">
-                                    <img className="car-image" src={car.image} />
+                                    <img className="car-image" src={'/car-rental-app-react/' + car.image} />
                                     <div className="car-infos">
                                         <div className="car-name">{car.name} - {car.fuel} - {car.year}</div>
                                         <div className="car-price">{(car.price).toFixed(2)} DHS</div>
