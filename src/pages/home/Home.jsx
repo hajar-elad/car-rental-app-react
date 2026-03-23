@@ -15,7 +15,7 @@ export function Home() {
                 <div className='category-container'>
                     <Link to='/luxurycarspage'>
                         <img
-                            src='/images/luxury-cars/ferrari-laferrari-yellow-2026.jpg'
+                            src='/car-rental-app-react/images/luxury-cars/ferrari-laferrari-yellow-2026.jpg'
                             className='category-car-image'
                         />
                     </Link>
@@ -24,7 +24,7 @@ export function Home() {
                 <div className='category-container'>
                     <Link to='/regularcarspage'>
                         <img
-                            src='/images/regular-cars/peugeot-208-black-2024.jpg'
+                            src='/car-rental-app-react/images/regular-cars/peugeot-208-black-2024.jpg'
                             className='category-car-image'
                         />
                     </Link>
