@@ -12,7 +12,7 @@ export const cars = [
         id :2,
         category : 'LuxuryCars',
         name : 'AUDI A8 WHITE',
-        image : '/images/luxury-cars/audi-a8-white-2026.JPG',
+        image : '/images/luxury-cars/audi-a8-white-2026.jpg',
         year : 2026,
         fuel: 'Diesel',
         price : 1500.00
@@ -166,7 +166,7 @@ export const cars = [
     {
         id : 20,
         category : 'RegularCars',
-        name : 'PEUGEOT 208 GRAY',
+        name : 'PEUGEOT 208 BLACK',
         image : '/images/regular-cars/peugeot-208-black-2024.jpg',
         year : 2024,
         fuel: 'Diesel',
