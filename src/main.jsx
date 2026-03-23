@@ -9,5 +9,5 @@ createRoot(document.getElementById('root')).render(
     <BrowserRouter basename="/car-rental-app-react/">
       <App/>
     </BrowserRouter>
-  </StrictMode>,
+  </StrictMode>, 
 )
