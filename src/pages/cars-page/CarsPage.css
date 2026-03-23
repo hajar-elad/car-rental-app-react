@@ -5,33 +5,31 @@
     grid-template-columns: 300px 300px 300px;
     place-self: center;
     gap: 35px;
-    color: rgb(85, 16, 16);
     font-weight: bold;
 }
 
 .car-infos-container{
-    padding: 3px;
+    padding: 7%;
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 7px;
+    border: 1px solid rgba(126, 128, 175, 0.76);
     border-radius: 8px;
-/* background-image: linear-gradient(to right, violet, purple);
-background-image: linear-gradient(to right, rgb(206, 114, 114), rgb(209, 59, 59));*/
+    transition: transform 0.3s ease-in-out;
+}
 
-
+.car-infos-container:hover{
+    transform: scale(1.05);
+    background-image: linear-gradient(15deg, #0e2d49, #a0bedb, rgb(247, 232, 232), #f8d3a2);
 }
 
 .car-image {
     width: 248px;
     height: 280px;
     padding: 1px;
-    border: 1px solid rgb(255, 168, 168);
+    border: 1px solid rgb(247, 232, 232);
     border-radius: 8px;
-     transition: transform 0.2s ease-in-out;
-}
-
-.car-image:hover{
-transform: scale(1.03);
 }
 
 .car-infos{
@@ -42,8 +40,9 @@ transform: scale(1.03);
 .book-link{
     border-radius: 8px;
     box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgb(247, 232, 232);
     width: 85%;
     height: 25px;
     text-align: center;
-    background-color: rgb(209, 59, 59);
+     background-image: linear-gradient(to right, rgb(240, 211, 173), rgb(247, 232, 232), #f8da9a);
 }

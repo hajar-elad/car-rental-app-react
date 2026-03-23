@@ -1,7 +1,8 @@
 footer {
-    margin-top: 25px;
-    border-top: 1px solid rgb(255, 168, 168);
-    color: rgb(187, 60, 60);
+    margin: 1%;
+    padding: 1%;
+    margin-bottom: 0;
+    border-top: 1px solid rgba(207, 207, 219, 0.76);
     padding: 25px;
     display: flex;
     flex-direction: column;
@@ -10,7 +11,7 @@ footer {
 }
 
 footer:hover{
-    color: rgb(139, 31, 31);
+    color: azure;
 }
 
 
@@ -25,11 +26,12 @@ footer:hover{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    text-decoration: underline;
 }
 
 .contact-us {
-    text-underline-offset: 3px;
+     color: rgb(240, 211, 173);
+     text-decoration: underline;
+     text-underline-offset: 3px;
 }
 
 .phone-nbr,

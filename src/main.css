@@ -1,14 +1,15 @@
 body {
   margin: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  /*background-image: linear-gradient(45deg, rgb(179, 3, 3), rgb(247, 175, 175, rgb(179, 3, 3)));*/
-  background-color: #e27070;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-image: url("./assets/background.jpg");
   background-repeat: no-repeat;
+  backdrop-filter: blur(7px);
   background-attachment: fixed;
   min-height: 100vh;
   background-size: cover;
+  color: rgba(4, 9, 19, 0.76);
 }
 
 a,link:visited  {
-  color: bisque;
+  color: rgba(8, 9, 32, 0.76);
 }
